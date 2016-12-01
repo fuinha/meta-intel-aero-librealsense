@@ -7,6 +7,8 @@ PR = "r0"
 
 S = "${WORKDIR}/git"
 
+FILES_${PN} += "${includedir}/${PN}"
+
 FILES_${PN}-examples += "\
 	${EXAMPLES_DIR}/cpp-callback \
 	${EXAMPLES_DIR}/cpp-motion-module \
